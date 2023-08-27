@@ -1,0 +1,57 @@
+
+# Admission Form Project
+
+This project is a simple admission form web application developed in PHP. It allows users to submit admission information, view a list of submitted records, and perform basic CRUD (Create, Read, Update, Delete) operations on the admission records.
+
+## Table of Contents
+
+- [Admission Form Project](#admission-form-project)
+  - [Table of Contents](#table-of-contents)
+  - [Requirements](#requirements)
+  - [Project Structure](#project-structure)
+  - [Installation](#installation)
+  - [Database Setup](#database-setup)
+  - [Usage](#usage)
+
+## Requirements
+
+To run this project, you need the following:
+
+- Web server (e.g., Apache)
+- PHP (7.0 or higher)
+- MySQL database server
+- jQuery library
+- DataTables jQuery plugin
+
+## Project Structure
+
+The project is structured as follows:
+
+- **crud**: Contains CRUD for admission.
+- **public**: Contains static assets (CSS, JavaScript, and Bootstrap).
+- **scripts**: Contains JavaScript files.
+- **templates**: Contains HTML templates for views.
+- **views**: Contains PHP view files.
+- **migrations**: Contains migration scripts for creating database tables.
+
+## Installation
+
+1. Clone this repository to your local machine: 
+
+2. Move the project files to your web server directory (e.g., htdocs for Apache).
+
+## Database Setup
+
+1. Create a MySQL database for the project (e.g., `admission_form`).
+
+2. Import the database schema using the migration script:
+
+3. Update the `db.php` file in the root directory with your database credentials:
+
+## Usage
+
+1. Open your web browser and navigate to the project's URL (e.g., http://localhost/admission-form-project).
+
+2. Fill out the admission form, submit it, and view the list of submitted records.
+
+3. Perform CRUD operations on admission records.
